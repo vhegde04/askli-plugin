@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "askli": {
+      "type": "http",
+      "url": "https://www.askli.chat/api/mcp"
+    }
+  }
+}

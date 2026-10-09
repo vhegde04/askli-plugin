@@ -1,0 +1,25 @@
+{
+  "name": "askli",
+  "displayName": "Askli",
+  "version": "0.1.0",
+  "description": "Plan and run evidence-backed customer interview studies, then review findings with traceable evidence.",
+  "author": {
+    "name": "Askli",
+    "email": "support@askli.chat",
+    "url": "https://www.askli.chat"
+  },
+  "homepage": "https://www.askli.chat",
+  "repository": "https://github.com/vhegde04/askli-plugin",
+  "keywords": [
+    "customer research",
+    "user interviews",
+    "product discovery",
+    "research",
+    "evidence"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://www.askli.chat/methodology",
+  "supportUrl": "https://www.askli.chat/support",
+  "privacyPolicyUrl": "https://www.askli.chat/privacy",
+  "termsOfServiceUrl": "https://www.askli.chat/terms"
+}
