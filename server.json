@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "chat.askli/askli",
+  "title": "Askli Customer Research",
+  "description": "Run interviews with real customers and retrieve evidence-backed product findings.",
+  "websiteUrl": "https://www.askli.chat/integrations",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "https://www.askli.chat/brand/askli-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.askli.chat/api/mcp"
+    }
+  ]
+}

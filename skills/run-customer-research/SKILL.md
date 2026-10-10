@@ -20,12 +20,11 @@ Use Askli's MCP tools to turn the user's product decision into a customer interv
 - Use `update_plan` only for changes the user asks for.
 - Use `confirm_plan` only after the user clearly approves the plan. Approval of an idea is not approval of a research plan.
 
-## Participants, recruiting, and payment
+## Participants and recruiting
 
-- Use `get_participant_options` before choosing a participant path. Explain the exact supported options, including bring-your-own participants and assisted recruiting where available.
-- If Askli cannot recruit the exact audience, say so plainly, preserve the study setup, and offer the legitimate continuation returned by Askli. Do not manufacture an executable study or claim readiness.
-- Never request participant names or email addresses unless an Askli tool explicitly requires them; the standard workflow does not.
-- Payment happens only on Askli's secure checkout page. Never request or accept card or banking details in chat.
+- Use the plan's recruiting feasibility to explain what Askli can and cannot support. If Askli cannot recruit the exact audience, say so plainly and preserve the study setup. Do not manufacture an executable study or claim readiness.
+- Participant setup, paid participant capacity, assisted recruiting, and checkout are unavailable through this plugin. Direct the user to the full Askli study link returned by Askli if they want to continue in the web app.
+- Do not quote prices, promote paid services, return checkout links, or request participant names, email addresses, payment details, or authentication codes in chat.
 
 ## Progress and findings
 

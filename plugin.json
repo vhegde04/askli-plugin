@@ -9,7 +9,6 @@
     "url": "https://www.askli.chat"
   },
   "homepage": "https://www.askli.chat",
-  "repository": "https://github.com/vhegde04/askli-plugin",
   "keywords": [
     "customer research",
     "user interviews",
@@ -22,13 +21,13 @@
       "interface": {
         "displayName": "Askli",
         "shortDescription": "Run customer research",
-        "longDescription": "Turn a product question into an AI-moderated customer interview study. Askli preserves the customer's stated audience and constraints, checks whether recruiting is feasible, supports bring-your-own or assisted recruiting, and returns decision-focused findings linked to interview evidence. Studies are asynchronous and qualitative; Askli does not claim population-level certainty.",
+        "longDescription": "Plan and review AI-moderated customer interview studies for product and business decisions. Askli preserves the customer's stated audience and constraints, reports recruiting feasibility honestly, tracks study progress, and returns decision-focused findings linked to interview evidence. Participant setup and any paid services stay in Askli's web app. Studies are asynchronous and qualitative; Askli does not claim population-level certainty.",
         "developerName": "Askli",
-        "category": "Productivity",
+        "category": "Business & Operations",
         "capabilities": [
           "Plan customer interview studies",
           "Review and approve research plans",
-          "Prepare participant recruitment",
+          "Check audience and recruiting feasibility",
           "Track study progress",
           "Read evidence-backed findings"
         ],
@@ -46,6 +45,7 @@
         "logo": "./assets/logo.png"
       },
       "review": {
+        "demo_recording_url": "https://www.askli.chat/plugin-review/askli-openai-review-0.1.0.mp4",
         "test_cases": {
           "positive": [
             {
@@ -94,8 +94,7 @@
             }
           ]
         },
-        "commerce": true,
-        "commerce_description": "Askli may offer paid participant recruitment or paid participant capacity. Checkout happens only on Askli's secure website; the plugin never collects payment details in chat."
+        "commerce": false
       },
       "publication": {
         "release_notes": "Initial Askli plugin with customer-research planning, participant options, study status, and evidence-backed Decision Reviews."
